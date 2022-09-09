@@ -1,0 +1,148 @@
+.bodyClass {
+    background-image: url("gucciBackground.jpg");
+
+}
+
+.headline {
+
+    font-variant-position: inherit;
+}
+
+.firstFloor {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.secondFloor {
+    
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+.thirdFloor {
+   
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.oneDivOne {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 116, 56);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+
+.oneDivFive {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 116, 56);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.middleDivs {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 10, 10);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.middleDivsEnd {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(209, 10, 10);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.oneDivOneFirst {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 116, 56);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    justify-content: space-evenly;
+    border-top-left-radius: 10px;
+}
+
+
+.oneDivFiveone {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 116, 56);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+    border-top-right-radius: 10px;
+}
+
+
+.oneDivOneThird {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 116, 56);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10px;
+
+}
+
+.oneDivFiveForth {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 116, 56);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 10px;
+}
+
+.imgas {
+    height: 130px;
+    width: 240px;
+    border-radius: 20px;
+}
+
+.imgasLast {
+    height: 130px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+span {
+    visibility: hidden;
+}
+span + p :hover { 
+visibility: visible;
+}
